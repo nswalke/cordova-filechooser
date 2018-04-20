@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-filechooser",
+  "version": "1.0.0",
+  "description": "Cordova plugin for opening a File Chooser",
+  "cordova": {
+    "id": "cordova-plugin-filechooser",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nswalke/cordova-filechooser.git"
+  },
+  "author": "Nirmal Walke (https://github.com/nswalke)",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/nswalke/cordova-filechooser/issues"
+  },
+  "homepage": "https://github.com/nswalke/cordova-filechooser#readme",
+  "keywords": [
+    "cordova",
+    "file",
+    "chooser",
+    "cordova-android"
+  ],
+  "scripts": {
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml",
+    "postversion": "git push && git push --tags"
+  }
+}
