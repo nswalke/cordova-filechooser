@@ -2,14 +2,14 @@
 <plugin 
     xmlns="http://www.phonegap.com/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android" 
-    id="com.megster.cordova.FileChooser" 
+    id="cordova-plugin-filechooser" 
     version="1.0.0">
     
     <engines>
         <engine name="cordova" version=">=2.8.0" />
     </engines>
 
-    <name>File Chooser</name>
+    <name>FileChooser</name>
     <description>Cordova plugin for opening a File Chooser</description>
     <repo>https://github.com/nswalke/cordova-filechooser</repo>
 
