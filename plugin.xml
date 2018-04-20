@@ -10,6 +10,8 @@
     </engines>
 
     <name>File Chooser</name>
+    <description>Cordova plugin for opening a File Chooser</description>
+    <repo>https://github.com/nswalke/cordova-filechooser</repo>
 
     <js-module src="www/fileChooser.js" name="FileChooser">
         <clobbers target="fileChooser" />
